@@ -1,21 +1,16 @@
-# Contract Risk Assessment Bot
 
-This project analyzes contract documents and provides a risk percentage
-and classification (Low, Medium, High) using a rule-based legal risk engine.
+# Contract Risk Assessment Bot (Final Version)
+
+## Description
+A simple rule-based system that analyzes contract documents to identify risky clauses
+and calculates an overall legal risk percentage.
 
 ## Features
-- Upload TXT or PDF contract files
-- Rule-based risk analysis
+- TXT and PDF upload
 - Risk percentage calculation
-- Simple and clean UI
-- Suitable for hackathon demos
+- Low / Medium / High risk classification
+- Simple UI suitable for freshers
 
-## Tech Stack
-- Python
-- Streamlit
-- PDF processing
-
-## How to Run
-```bash
+## Run
 pip install -r requirements.txt
 streamlit run app.py
